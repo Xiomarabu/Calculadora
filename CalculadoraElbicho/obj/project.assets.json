@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Calculadora\\Calculadora\\CalculadoraElbicho\\CalculadoraElbicho.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\repos\\CalculadoraElbicho\\CalculadoraElbicho\\CalculadoraElbicho.csproj",
       "projectName": "CalculadoraElbicho",
-      "projectPath": "C:\\Users\\admin\\Desktop\\Calculadora\\Calculadora\\CalculadoraElbicho\\CalculadoraElbicho.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\repos\\CalculadoraElbicho\\CalculadoraElbicho\\CalculadoraElbicho.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\Calculadora\\Calculadora\\CalculadoraElbicho\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\repos\\CalculadoraElbicho\\CalculadoraElbicho\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
