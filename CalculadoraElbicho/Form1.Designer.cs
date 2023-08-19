@@ -29,30 +29,30 @@
         private void InitializeComponent()
         {
             txtresultado = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
-            button21 = new Button();
-            button22 = new Button();
-            button23 = new Button();
-            button24 = new Button();
+            Uno = new Button();
+            Dos = new Button();
+            Tres = new Button();
+            Seis = new Button();
+            Cinco = new Button();
+            Cuatro = new Button();
+            Borrar = new Button();
+            C = new Button();
+            CE = new Button();
+            Nueve = new Button();
+            Ocho = new Button();
+            Siete = new Button();
+            Potencia = new Button();
+            RaizCuadrada = new Button();
+            pocentaje = new Button();
+            ValorAbsoluti = new Button();
+            dividir = new Button();
+            Multiplicacion = new Button();
+            Menos = new Button();
+            Mas = new Button();
+            Igual = new Button();
+            Punto = new Button();
+            Cero = new Button();
+            coma = new Button();
             SuspendLayout();
             // 
             // txtresultado
@@ -67,280 +67,290 @@
             txtresultado.Text = "0";
             txtresultado.TextAlign = HorizontalAlignment.Right;
             // 
-            // button1
+            // Uno
             // 
-            button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(12, 324);
-            button1.Name = "button1";
-            button1.Size = new Size(45, 45);
-            button1.TabIndex = 1;
-            button1.Text = "1";
-            button1.UseVisualStyleBackColor = true;
+            Uno.BackColor = SystemColors.GradientInactiveCaption;
+            Uno.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Uno.Location = new Point(12, 324);
+            Uno.Name = "Uno";
+            Uno.Size = new Size(45, 45);
+            Uno.TabIndex = 1;
+            Uno.Text = "1";
+            Uno.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // Dos
             // 
-            button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(63, 324);
-            button2.Name = "button2";
-            button2.Size = new Size(45, 45);
-            button2.TabIndex = 2;
-            button2.Text = "2";
-            button2.UseVisualStyleBackColor = true;
+            Dos.BackColor = SystemColors.GradientInactiveCaption;
+            Dos.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Dos.Location = new Point(63, 324);
+            Dos.Name = "Dos";
+            Dos.Size = new Size(45, 45);
+            Dos.TabIndex = 2;
+            Dos.Text = "2";
+            Dos.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // Tres
             // 
-            button3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(114, 324);
-            button3.Name = "button3";
-            button3.Size = new Size(45, 45);
-            button3.TabIndex = 3;
-            button3.Text = "3";
-            button3.UseVisualStyleBackColor = true;
+            Tres.BackColor = SystemColors.GradientInactiveCaption;
+            Tres.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Tres.Location = new Point(114, 324);
+            Tres.Name = "Tres";
+            Tres.Size = new Size(45, 45);
+            Tres.TabIndex = 3;
+            Tres.Text = "3";
+            Tres.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // Seis
             // 
-            button4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(114, 268);
-            button4.Name = "button4";
-            button4.Size = new Size(45, 45);
-            button4.TabIndex = 6;
-            button4.Text = "6";
-            button4.UseVisualStyleBackColor = true;
+            Seis.BackColor = SystemColors.GradientInactiveCaption;
+            Seis.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Seis.Location = new Point(114, 268);
+            Seis.Name = "Seis";
+            Seis.Size = new Size(45, 45);
+            Seis.TabIndex = 6;
+            Seis.Text = "6";
+            Seis.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // Cinco
             // 
-            button5.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(63, 268);
-            button5.Name = "button5";
-            button5.Size = new Size(45, 45);
-            button5.TabIndex = 5;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            Cinco.BackColor = SystemColors.GradientInactiveCaption;
+            Cinco.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Cinco.Location = new Point(63, 268);
+            Cinco.Name = "Cinco";
+            Cinco.Size = new Size(45, 45);
+            Cinco.TabIndex = 5;
+            Cinco.Text = "5";
+            Cinco.UseVisualStyleBackColor = false;
+            Cinco.Click += button5_Click;
             // 
-            // button6
+            // Cuatro
             // 
-            button6.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(12, 268);
-            button6.Name = "button6";
-            button6.Size = new Size(45, 45);
-            button6.TabIndex = 4;
-            button6.Text = "4";
-            button6.UseVisualStyleBackColor = true;
+            Cuatro.BackColor = SystemColors.GradientInactiveCaption;
+            Cuatro.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Cuatro.Location = new Point(12, 268);
+            Cuatro.Name = "Cuatro";
+            Cuatro.Size = new Size(45, 45);
+            Cuatro.TabIndex = 4;
+            Cuatro.Text = "4";
+            Cuatro.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // Borrar
             // 
-            button7.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.Location = new Point(114, 156);
-            button7.Name = "button7";
-            button7.Size = new Size(45, 45);
-            button7.TabIndex = 12;
-            button7.Text = "<-";
-            button7.UseVisualStyleBackColor = true;
+            Borrar.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Borrar.Location = new Point(114, 156);
+            Borrar.Name = "Borrar";
+            Borrar.Size = new Size(45, 45);
+            Borrar.TabIndex = 12;
+            Borrar.Text = "<-";
+            Borrar.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // C
             // 
-            button8.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.Location = new Point(63, 156);
-            button8.Name = "button8";
-            button8.Size = new Size(45, 45);
-            button8.TabIndex = 11;
-            button8.Text = "C";
-            button8.UseVisualStyleBackColor = true;
+            C.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            C.Location = new Point(63, 156);
+            C.Name = "C";
+            C.Size = new Size(45, 45);
+            C.TabIndex = 11;
+            C.Text = "C";
+            C.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // CE
             // 
-            button9.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.Location = new Point(12, 156);
-            button9.Name = "button9";
-            button9.Size = new Size(45, 45);
-            button9.TabIndex = 10;
-            button9.Text = "CE";
-            button9.UseVisualStyleBackColor = true;
+            CE.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            CE.Location = new Point(12, 156);
+            CE.Name = "CE";
+            CE.Size = new Size(45, 45);
+            CE.TabIndex = 10;
+            CE.Text = "CE";
+            CE.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // Nueve
             // 
-            button10.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button10.Location = new Point(114, 212);
-            button10.Name = "button10";
-            button10.Size = new Size(45, 45);
-            button10.TabIndex = 9;
-            button10.Text = "9";
-            button10.UseVisualStyleBackColor = true;
+            Nueve.BackColor = SystemColors.GradientInactiveCaption;
+            Nueve.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Nueve.Location = new Point(114, 212);
+            Nueve.Name = "Nueve";
+            Nueve.Size = new Size(45, 45);
+            Nueve.TabIndex = 9;
+            Nueve.Text = "9";
+            Nueve.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // Ocho
             // 
-            button11.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button11.Location = new Point(63, 212);
-            button11.Name = "button11";
-            button11.Size = new Size(45, 45);
-            button11.TabIndex = 8;
-            button11.Text = "8";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
+            Ocho.BackColor = SystemColors.GradientInactiveCaption;
+            Ocho.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Ocho.Location = new Point(63, 212);
+            Ocho.Name = "Ocho";
+            Ocho.Size = new Size(45, 45);
+            Ocho.TabIndex = 8;
+            Ocho.Text = "8";
+            Ocho.UseVisualStyleBackColor = false;
+            Ocho.Click += button11_Click;
             // 
-            // button12
+            // Siete
             // 
-            button12.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button12.Location = new Point(12, 212);
-            button12.Name = "button12";
-            button12.Size = new Size(45, 45);
-            button12.TabIndex = 7;
-            button12.Text = "7";
-            button12.UseVisualStyleBackColor = true;
+            Siete.BackColor = SystemColors.GradientInactiveCaption;
+            Siete.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Siete.Location = new Point(12, 212);
+            Siete.Name = "Siete";
+            Siete.Size = new Size(45, 45);
+            Siete.TabIndex = 7;
+            Siete.Text = "7";
+            Siete.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // Potencia
             // 
-            button13.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button13.Location = new Point(114, 96);
-            button13.Name = "button13";
-            button13.Size = new Size(45, 45);
-            button13.TabIndex = 15;
-            button13.Text = "X²";
-            button13.UseVisualStyleBackColor = true;
+            Potencia.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Potencia.Location = new Point(114, 96);
+            Potencia.Name = "Potencia";
+            Potencia.Size = new Size(45, 45);
+            Potencia.TabIndex = 15;
+            Potencia.Text = "X²";
+            Potencia.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // RaizCuadrada
             // 
-            button14.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button14.Location = new Point(63, 96);
-            button14.Name = "button14";
-            button14.Size = new Size(45, 45);
-            button14.TabIndex = 14;
-            button14.Text = "√";
-            button14.UseVisualStyleBackColor = true;
-            button14.Click += button14_Click;
+            RaizCuadrada.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RaizCuadrada.Location = new Point(63, 96);
+            RaizCuadrada.Name = "RaizCuadrada";
+            RaizCuadrada.Size = new Size(45, 45);
+            RaizCuadrada.TabIndex = 14;
+            RaizCuadrada.Text = "√";
+            RaizCuadrada.UseVisualStyleBackColor = true;
+            RaizCuadrada.Click += button14_Click;
             // 
-            // button15
+            // pocentaje
             // 
-            button15.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button15.Location = new Point(12, 96);
-            button15.Name = "button15";
-            button15.Size = new Size(45, 45);
-            button15.TabIndex = 13;
-            button15.Text = "%";
-            button15.UseVisualStyleBackColor = true;
+            pocentaje.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            pocentaje.Location = new Point(12, 96);
+            pocentaje.Name = "pocentaje";
+            pocentaje.Size = new Size(45, 45);
+            pocentaje.TabIndex = 13;
+            pocentaje.Text = "%";
+            pocentaje.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // ValorAbsoluti
             // 
-            button16.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button16.Location = new Point(165, 96);
-            button16.Name = "button16";
-            button16.Size = new Size(45, 45);
-            button16.TabIndex = 20;
-            button16.Text = "| |";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button16_Click;
+            ValorAbsoluti.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ValorAbsoluti.Location = new Point(165, 96);
+            ValorAbsoluti.Name = "ValorAbsoluti";
+            ValorAbsoluti.Size = new Size(45, 45);
+            ValorAbsoluti.TabIndex = 20;
+            ValorAbsoluti.Text = "| |";
+            ValorAbsoluti.UseVisualStyleBackColor = true;
+            ValorAbsoluti.Click += button16_Click;
             // 
-            // button17
+            // dividir
             // 
-            button17.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button17.Location = new Point(165, 156);
-            button17.Name = "button17";
-            button17.Size = new Size(45, 45);
-            button17.TabIndex = 19;
-            button17.Text = "/";
-            button17.UseVisualStyleBackColor = true;
+            dividir.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            dividir.Location = new Point(165, 156);
+            dividir.Name = "dividir";
+            dividir.Size = new Size(45, 45);
+            dividir.TabIndex = 19;
+            dividir.Text = "/";
+            dividir.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // Multiplicacion
             // 
-            button18.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button18.Location = new Point(165, 212);
-            button18.Name = "button18";
-            button18.Size = new Size(45, 45);
-            button18.TabIndex = 18;
-            button18.Text = "*";
-            button18.UseVisualStyleBackColor = true;
-            button18.Click += button18_Click;
+            Multiplicacion.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Multiplicacion.Location = new Point(165, 212);
+            Multiplicacion.Name = "Multiplicacion";
+            Multiplicacion.Size = new Size(45, 45);
+            Multiplicacion.TabIndex = 18;
+            Multiplicacion.Text = "*";
+            Multiplicacion.UseVisualStyleBackColor = true;
+            Multiplicacion.Click += button18_Click;
             // 
-            // button19
+            // Menos
             // 
-            button19.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button19.Location = new Point(165, 268);
-            button19.Name = "button19";
-            button19.Size = new Size(45, 45);
-            button19.TabIndex = 17;
-            button19.Text = "-";
-            button19.UseVisualStyleBackColor = true;
+            Menos.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Menos.Location = new Point(165, 268);
+            Menos.Name = "Menos";
+            Menos.Size = new Size(45, 45);
+            Menos.TabIndex = 17;
+            Menos.Text = "-";
+            Menos.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // Mas
             // 
-            button20.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button20.Location = new Point(165, 324);
-            button20.Name = "button20";
-            button20.Size = new Size(45, 45);
-            button20.TabIndex = 16;
-            button20.Text = "+";
-            button20.UseVisualStyleBackColor = true;
+            Mas.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Mas.Location = new Point(165, 324);
+            Mas.Name = "Mas";
+            Mas.Size = new Size(45, 45);
+            Mas.TabIndex = 16;
+            Mas.Text = "+";
+            Mas.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // Igual
             // 
-            button21.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button21.Location = new Point(165, 375);
-            button21.Name = "button21";
-            button21.Size = new Size(45, 45);
-            button21.TabIndex = 24;
-            button21.Text = "=";
-            button21.UseVisualStyleBackColor = true;
+            Igual.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Igual.Location = new Point(165, 375);
+            Igual.Name = "Igual";
+            Igual.Size = new Size(45, 45);
+            Igual.TabIndex = 24;
+            Igual.Text = "=";
+            Igual.UseVisualStyleBackColor = true;
             // 
-            // button22
+            // Punto
             // 
-            button22.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button22.Location = new Point(114, 375);
-            button22.Name = "button22";
-            button22.Size = new Size(45, 45);
-            button22.TabIndex = 23;
-            button22.Text = ".";
-            button22.UseVisualStyleBackColor = true;
+            Punto.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Punto.Location = new Point(114, 375);
+            Punto.Name = "Punto";
+            Punto.Size = new Size(45, 45);
+            Punto.TabIndex = 23;
+            Punto.Text = ".";
+            Punto.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // Cero
             // 
-            button23.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button23.Location = new Point(63, 375);
-            button23.Name = "button23";
-            button23.Size = new Size(45, 45);
-            button23.TabIndex = 22;
-            button23.Text = "0";
-            button23.UseVisualStyleBackColor = true;
+            Cero.BackColor = SystemColors.GradientInactiveCaption;
+            Cero.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Cero.Location = new Point(63, 375);
+            Cero.Name = "Cero";
+            Cero.Size = new Size(45, 45);
+            Cero.TabIndex = 22;
+            Cero.Text = "0";
+            Cero.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // coma
             // 
-            button24.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button24.Location = new Point(12, 375);
-            button24.Name = "button24";
-            button24.Size = new Size(45, 45);
-            button24.TabIndex = 21;
-            button24.Text = ",";
-            button24.UseVisualStyleBackColor = true;
+            coma.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            coma.Location = new Point(12, 375);
+            coma.Name = "coma";
+            coma.Size = new Size(45, 45);
+            coma.TabIndex = 21;
+            coma.Text = ",";
+            coma.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(230, 450);
-            Controls.Add(button21);
-            Controls.Add(button22);
-            Controls.Add(button23);
-            Controls.Add(button24);
-            Controls.Add(button16);
-            Controls.Add(button17);
-            Controls.Add(button18);
-            Controls.Add(button19);
-            Controls.Add(button20);
-            Controls.Add(button13);
-            Controls.Add(button14);
-            Controls.Add(button15);
-            Controls.Add(button7);
-            Controls.Add(button8);
-            Controls.Add(button9);
-            Controls.Add(button10);
-            Controls.Add(button11);
-            Controls.Add(button12);
-            Controls.Add(button4);
-            Controls.Add(button5);
-            Controls.Add(button6);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(Igual);
+            Controls.Add(Punto);
+            Controls.Add(Cero);
+            Controls.Add(coma);
+            Controls.Add(ValorAbsoluti);
+            Controls.Add(dividir);
+            Controls.Add(Multiplicacion);
+            Controls.Add(Menos);
+            Controls.Add(Mas);
+            Controls.Add(Potencia);
+            Controls.Add(RaizCuadrada);
+            Controls.Add(pocentaje);
+            Controls.Add(Borrar);
+            Controls.Add(C);
+            Controls.Add(CE);
+            Controls.Add(Nueve);
+            Controls.Add(Ocho);
+            Controls.Add(Siete);
+            Controls.Add(Seis);
+            Controls.Add(Cinco);
+            Controls.Add(Cuatro);
+            Controls.Add(Tres);
+            Controls.Add(Dos);
+            Controls.Add(Uno);
             Controls.Add(txtresultado);
             Name = "Form1";
             Text = "Calculadoradiseño";
@@ -351,29 +361,29 @@
         #endregion
 
         private TextBox txtresultado;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button21;
-        private Button button22;
-        private Button button23;
-        private Button button24;
+        private Button Uno;
+        private Button Dos;
+        private Button Tres;
+        private Button Seis;
+        private Button Cinco;
+        private Button Cuatro;
+        private Button Borrar;
+        private Button C;
+        private Button CE;
+        private Button Nueve;
+        private Button Ocho;
+        private Button Siete;
+        private Button Potencia;
+        private Button RaizCuadrada;
+        private Button pocentaje;
+        private Button ValorAbsoluti;
+        private Button dividir;
+        private Button Multiplicacion;
+        private Button Menos;
+        private Button Mas;
+        private Button Igual;
+        private Button Punto;
+        private Button Cero;
+        private Button coma;
     }
 }
