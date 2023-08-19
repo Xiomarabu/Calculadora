@@ -1,0 +1,17 @@
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\bin\Debug\net6.0-windows\CalculadoraElbicho.exe
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\bin\Debug\net6.0-windows\CalculadoraElbicho.deps.json
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\bin\Debug\net6.0-windows\CalculadoraElbicho.runtimeconfig.json
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\bin\Debug\net6.0-windows\CalculadoraElbicho.dll
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\bin\Debug\net6.0-windows\CalculadoraElbicho.pdb
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.Form1.resources
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.Properties.Resources.resources
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.csproj.GenerateResource.cache
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.AssemblyInfoInputs.cache
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.AssemblyInfo.cs
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.csproj.CoreCompileInputs.cache
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.dll
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\refint\CalculadoraElbicho.dll
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.pdb
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\CalculadoraElbicho.genruntimeconfig.cache
+C:\Users\informatica\Desktop\Calculator\CalculadoraElbicho\CalculadoraElbicho\obj\Debug\net6.0-windows\ref\CalculadoraElbicho.dll

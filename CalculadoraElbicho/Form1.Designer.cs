@@ -61,8 +61,7 @@
             txtresultado.Location = new Point(0, 0);
             txtresultado.Multiline = true;
             txtresultado.Name = "txtresultado";
-            txtresultado.ReadOnly = true;
-            txtresultado.Size = new Size(288, 50);
+            txtresultado.Size = new Size(210, 50);
             txtresultado.TabIndex = 0;
             txtresultado.Text = "0";
             txtresultado.TextAlign = HorizontalAlignment.Right;
@@ -77,6 +76,7 @@
             Uno.TabIndex = 1;
             Uno.Text = "1";
             Uno.UseVisualStyleBackColor = false;
+            Uno.Click += Uno_Click;
             // 
             // Dos
             // 
@@ -88,6 +88,7 @@
             Dos.TabIndex = 2;
             Dos.Text = "2";
             Dos.UseVisualStyleBackColor = false;
+            Dos.Click += Dos_Click;
             // 
             // Tres
             // 
@@ -99,6 +100,7 @@
             Tres.TabIndex = 3;
             Tres.Text = "3";
             Tres.UseVisualStyleBackColor = false;
+            Tres.Click += Tres_Click;
             // 
             // Seis
             // 
@@ -110,6 +112,7 @@
             Seis.TabIndex = 6;
             Seis.Text = "6";
             Seis.UseVisualStyleBackColor = false;
+            Seis.Click += Seis_Click;
             // 
             // Cinco
             // 
@@ -133,6 +136,7 @@
             Cuatro.TabIndex = 4;
             Cuatro.Text = "4";
             Cuatro.UseVisualStyleBackColor = false;
+            Cuatro.Click += Cuatro_Click;
             // 
             // Borrar
             // 
@@ -174,6 +178,7 @@
             Nueve.TabIndex = 9;
             Nueve.Text = "9";
             Nueve.UseVisualStyleBackColor = false;
+            Nueve.Click += Nueve_Click;
             // 
             // Ocho
             // 
@@ -197,6 +202,7 @@
             Siete.TabIndex = 7;
             Siete.Text = "7";
             Siete.UseVisualStyleBackColor = false;
+            Siete.Click += Siete_Click;
             // 
             // Potencia
             // 
@@ -300,6 +306,7 @@
             Punto.TabIndex = 23;
             Punto.Text = ".";
             Punto.UseVisualStyleBackColor = true;
+            Punto.Click += Punto_Click;
             // 
             // Cero
             // 
@@ -311,6 +318,7 @@
             Cero.TabIndex = 22;
             Cero.Text = "0";
             Cero.UseVisualStyleBackColor = false;
+            Cero.Click += Cero_Click;
             // 
             // coma
             // 
@@ -321,12 +329,13 @@
             coma.TabIndex = 21;
             coma.Text = ",";
             coma.UseVisualStyleBackColor = true;
+            coma.Click += coma_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(230, 450);
+            ClientSize = new Size(221, 450);
             Controls.Add(Igual);
             Controls.Add(Punto);
             Controls.Add(Cero);
